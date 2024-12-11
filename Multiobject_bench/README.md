@@ -1,6 +1,6 @@
 # Semantic Anomaly Segmentation Benchmark
 
-This project aims to provide a benchmark for several anomaly segmentation methods in the field of computer vision. Anomaly segmentation is a critical task in various applications, and this repository serves as a hub for assessing the performance of different anomaly detection methods. The benchmark supports several state-of-the-art repositories, including:
+This project aims to provide a benchmark for several anomaly segmentation methods in the field of computer vision, specifically adapted for multi-object scenarios. We have modified the original implementations by redesigning their data loaders and incorporating multi-object training and evaluation capabilities. This adaptation allows for a fair comparison of these methods in more complex, real-world settings where multiple objects may be present. The benchmark includes several state-of-the-art repositories, including:
 
 1. KDAD ([paper](https://arxiv.org/abs/2011.11108) | [original repo](https://github.com/rohban-lab/Knowledge_Distillation_AD))
 2. RD4AD ([paper](https://arxiv.org/abs/2201.10703) | [original repo](https://github.com/hq-deng/RD4AD))
@@ -35,8 +35,8 @@ The following table shows the AUROC scores of the single-class, one-vs-all, sett
 | **CIFAR10**    | 86.1         | 94.3             | 99.1                  | 87.2         | 72.47        | 97.2         | 98.3/94.9*          | 64.81      | 99.1         | 98.6         |
 | **CIFAR100**   | -            | 89.6             | 98.1                  | 80.6         | -            | 96.4         | 97.3/93*            | -          | 98           | 97.4         |
 | **FMNIST**     | 95           | 94.2             | 80.5*                 | 94.5         | 92.6         | 94.2         | 94.4/92.7*          | -          | 94.6         | 94.4         |
-| **Pascal VOC** | 58.6         | -                | -                     | 82.8*        | 55*          | 91.8*        | 82.5*               | 56.14*     | 93.41*       | 95.4         |
-| **COCO Detection** | 47.9     | -                | -                     | 75.4*        | -            | 86.7*        | 75.4*               | -          | -            | 94.5         |
+| **Pascal VOC** | 58.6         | -                | -                     | 82.8*        | 55*          | 91.8*        | 82.5*               | 56.14*     | 93.4*       | 95.4         |
+| **COCO Detection** | 47.9     | -                | -                     | 75.4*        | -            | 86.7*        | 75.4*               | -          | 90.5            | 94.5         |
 
 
 ## Getting Started
