@@ -42,5 +42,3 @@ The following table shows the AUROC scores of the single-class, one-vs-all, sett
 ## Getting Started
 To get started with the benchmark, follow the instructions in the respective repository folders. Use the requirements.txt or the env.yml files to create the environment.
 
-## License
-This benchmark is distributed under the [MIT License](LICENSE). Please review the license file before using or contributing to the repository.
