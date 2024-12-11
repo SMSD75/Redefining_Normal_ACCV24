@@ -1,4 +1,4 @@
-# Semantic Anomaly Segmentation Benchmark
+# Multi-object Anomaly Detection Benchmark
 
 This project aims to provide a benchmark for several anomaly segmentation methods in the field of computer vision, specifically adapted for multi-object scenarios. We have modified the original implementations by redesigning their data loaders and incorporating multi-object training and evaluation capabilities. This adaptation allows for a fair comparison of these methods in more complex, real-world settings where multiple objects may be present. The benchmark includes several state-of-the-art repositories, including:
 
