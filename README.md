@@ -10,16 +10,17 @@ To start training from scratch, execute dense_tuning.py or leo_tuning.py. The tr
 ```python
 python dense_tuning.py --device cuda:0 --batch_size 32 --input_size 224 --num_epochs 100 --num_prototypes 20 --dataset pascal --abnormal_class 0
 ```
-Key training parameters include:
 
-```python
-Learning rate: Initial 1e-4, peak 1e-3
-Weight decay: 1e-2
-Input resolution: 224x224 pixels
-Batch size: 32
-Number of prototypes: 20
-Training epochs: 100
-```
+
+### Key Training Parameters
+
+- **Learning rate**: Initial `1e-4`, peak `1e-3`
+- **Weight decay**: `1e-2`
+- **Input resolution**: `224x224` pixels
+- **Batch size**: `32`
+- **Number of prototypes**: `20`
+- **Training epochs**: `100`
+
 The model performs validation every epoch and logs performance metrics using wandb. For different datasets, the training pipeline automatically adjusts the data transformations:
 
 ## Citation
