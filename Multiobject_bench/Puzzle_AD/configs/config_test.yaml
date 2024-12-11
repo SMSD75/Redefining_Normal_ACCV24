@@ -1,0 +1,14 @@
+# data parameters
+dataset_name: pvoc
+n_channel: 3
+image_size: 128  # {mnist, fashionmnist}:28, cifar10:32, {coil100, MVTec, Medical}:128
+normal_class: 0 #airplane #hazelnut
+last_epoch: 9
+
+batch_size: 1
+
+# Unet
+base_channel: 64
+
+
+
