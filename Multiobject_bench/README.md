@@ -36,7 +36,7 @@ The following table shows the AUROC scores of the single-class, one-vs-all, sett
 | **CIFAR100**   | -            | 89.6             | 98.1                  | 80.6         | -            | 96.4         | 97.3/93*            | -          | 98           | 97.4         |
 | **FMNIST**     | 95           | 94.2             | 80.5*                 | 94.5         | 92.6         | 94.2         | 94.4/92.7*          | -          | 94.6         | 94.4         |
 | **Pascal VOC** | 58.6         | -                | -                     | 82.8*        | 55*          | 91.8*        | 82.5*               | 56.14*     | 93.4*       | 95.4         |
-| **COCO Detection** | 47.9     | -                | -                     | 75.4*        | -            | 86.7*        | 75.4*               | -          | 90.5            | 94.5         |
+| **COCO Detection** | 47.9     | -                | -                     | 75.4*        | -            | 86.7*        | 75.4*               | -          | 90.5*            | 94.5         |
 
 
 ## Getting Started
