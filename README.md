@@ -23,6 +23,14 @@ python dense_tuning.py --device cuda:0 --batch_size 32 --input_size 224 --num_ep
 
 The model performs validation every epoch and logs performance metrics using wandb. For different datasets, the training pipeline automatically adjusts the data transformations:
 
+
+## Setting Up the Environment
+
+To set up the environment, please use the following repositories:
+
+- [Leopart](https://github.com/MkuuWaUjinga/leopart/tree/main)
+- [MaskAlign](https://github.com/OpenDriveLab/maskalign)
+
 ## Citation
 
 If you find this repository useful, please consider giving a star ⭐ and citation 📣:
